@@ -160,7 +160,7 @@ def main():
     best_val_loss = float("inf")
 
     for epoch in range(1, args.num_epochs+1):
-
+        print("start epoch n°",epoch)
         # we don't need the average epoch loss so we assign it to _
         _ = train(epoch, model, loss, optimizer,
                   dataloader, pair_generation_tnf,
@@ -183,7 +183,7 @@ def main():
                          'optimizer': optimizer.state_dict(),
                          },
                         is_best, checkpoint_path)
-
+        print("end epoch n°",epoch)
     logs_writer.close()
     print('Done!')
 
