@@ -6,7 +6,7 @@
     **OU** dans gitHub desktop: 
     - Faire dérouler l'onglet "Current repository"
     - Cliquer sur add et selectionner dans vos répository ou utiliser le chemin d'acces plus haut
-2. Ouvrir Anaconda
+2. Ouvrir Anaconda (Anaconda Prompt)
 3. Se placer dans le répertoire cnngeometric_pytorch (utiliser ```cd <chemin d'acces>```)
 4. Creer un environement conda: ```conda env create -f environment.yml```
 5. Lancer l'environnement: ```conda activate cnngeometric```
